@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Hello EJS</h1>
+
+        <form method="POST" action="/login">
+            <div>
+                <label for="username">
+                    Username
+                    <input type="text" name="username" />
+                </label>
+            </div>
+            <div>
+                <label for="password">
+                    Password
+                    <input type="password" name="password" />
+                </label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"
+        ></script>
+        <!-- <script>
+            console.log("Hello baby");
+            $.ajax({
+                type: "POST",
+                url: "/loginjson",
+                data: JSON.stringify({
+                    firstName: "QUOC",
+                    lastName: "DAI",
+                }),
+                dataType: "json",
+                contentType: "application/json",
+            });
+        </script> -->
+    </body>
+</html>
