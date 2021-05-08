@@ -26,9 +26,4 @@ app.listen(port, function () {
     console.log("Server is listening on port: ", port);
 });
 
-// abcdef
-//dsadhajld
-//dsadads
-//hahaha
-// dsajhdsaaaa
-// test6
+// dmm dnaudhsauhdaiu
